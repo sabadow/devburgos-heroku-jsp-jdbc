@@ -28,7 +28,7 @@ heroku open
 ```
 
 ##Test on local
-create a .env file (don´t add to repository!!) with the content
+create a .env file (**don´t add to repository!!**) with the content
 ```
 export DATABASE_URL=postgres://<username>:<password>@<host>/<dbname>
 ```
