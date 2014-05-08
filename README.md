@@ -30,7 +30,7 @@ heroku open
 ##Test on local
 create a .env file (**don´t add to repository!!**) with the content
 ```
-export DATABASE_URL=postgres://<username>:<password>@<host>/<dbname>
+DATABASE_URL=postgres://<username>:<password>@<host:port>/<dbname>
 ```
 
 compile the app
